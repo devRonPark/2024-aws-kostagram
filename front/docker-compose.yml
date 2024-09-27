@@ -1,0 +1,8 @@
+version: '3'
+services:
+  front-image:
+    build:
+      context: .
+    container_name: front-container 
+    ports:
+      - "80:80"
